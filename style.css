@@ -65,8 +65,10 @@ p {
 }
 
 .mus {
-    background-color: #7d7f8a17;
+    background-color: #7d7f8a09;
     border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     width: 80%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
