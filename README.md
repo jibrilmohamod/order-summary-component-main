@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/420-bot/order-summary-component-main)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Live Site URL: [Live site URL](https://420-bot.github.io/order-summary-component-main/)
 
 ## My process
 
