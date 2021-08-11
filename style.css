@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+/* removing browser default styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* setting background */
+
+html {
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+}
+
+
+/* layout styling */
+
+body {
+    height: 100%;
+    /* border: 10px solid #8d2f2f; */
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #fff;
+    width: 80%;
+    height: 80%;
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+p {
+    text-align: center;
+    font-weight: 500;
+    width: 80%;
+    font-size: 14px;
+    color: #7d7f8a;
+}
+
+.one {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.mus {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    /* justify-content: space-evenly; */
+}
+
+span {
+    color: black;
+}
+
+.span {
+    display: block;
+    position: relative;
+    top: -20px;
+}
+
+button {
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 6;
+    background-color: #382ae3;
+    border-radius: 10px;
+    color: #fff;
+    /* box-shadow: 0 0 1px 2px #382ae3; */
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 1000px) {
+    .container {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100px;
+    }
+}
